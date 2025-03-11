@@ -12,6 +12,7 @@ on:
     paths:
       - .github/workflows/deb.yaml
       - deb/*
+  workflow_dispatch:
 
 env:
   IMAGE_NAME: ${{ github.event.repository.name }}
